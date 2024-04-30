@@ -1,0 +1,596 @@
+.header
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/aiimage.jpg');
+    background-size: cover;
+    background-position: center; 
+    position: relative;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-header
+{
+    position: absolute;
+    font-family: "raleway";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.main-heading
+{
+    color: #fff;
+    font-size: 27px;
+    font-family: 'raleway';
+    margin-top: 30px;
+    
+}
+.name
+{
+    border: #d43f52 2px solid;
+    color: #d43f52;
+    padding: 25px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+    width: 200px;
+}
+.developer
+{
+    color: #fff;
+    font-size: 35px;
+    font-family: 'raleway';
+}
+
+.developer-intro
+{
+    color: #f1eded;
+    font-size: 15px;
+    font-family: 'raleway';
+    text-align: center;
+    margin-top: -14px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.start-btn
+{
+    background-color: transparent;
+    border: rgb(219, 215, 215) 2px solid;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(219, 215, 215);
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'raleway';
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 25px;
+    
+}
+.start-btn:hover
+{
+    
+    background-color: #d43f52;
+    color: rgb(219, 215, 215);
+    transition: 1.5s;
+    border: none;
+
+    /* #1a1a1a */
+}
+
+.specility
+{
+    margin-top: -25px;
+    background-color:#1a1a1a;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.specility h2
+{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'raleway';
+    font-weight: 800;
+}
+
+.work-grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.skill-content
+{
+ 
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 20px;
+}
+.btn-content
+{
+    width: 60px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.row-content
+{
+    width: 250px;
+}
+.row-content h3
+{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'raleway';
+    font-weight: 800;
+    margin-top: -10px;
+}
+.row-content p
+{
+    margin-top: -3px;
+    color: #999999;
+    font-size: 19px;
+    font-family: 'releway';
+    
+}
+.btn1
+{
+    background-color: transparent;
+    border: rgb(219, 215, 215) 2px solid;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #d43f52 ;
+    border-radius: 100px;
+    font-size: small;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.btn-content button:hover
+{
+    background-color: rgb(219, 215, 215) ;
+    color:#d43f52;
+    transition: 1.5s;
+    border: none;
+}
+.icon-size
+{
+    font-size: 25px;
+}
+.btn2
+{
+    background-color: transparent;
+    border: rgb(219, 215, 215) 2px solid;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color:  #d43f52;
+    border-radius: 100px;
+    font-size: small;
+    cursor: pointer;
+    margin-top: -10px;
+}
+.icon-size-1
+{
+    font-size: 22px;
+}
+
+.btn3
+{
+    background-color: transparent;
+    border: rgb(219, 215, 215) 2px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color:  #d43f52 ;
+    border-radius: 100px;
+    font-size: small;
+    cursor: pointer;
+    margin-top: -10px;
+    font-size: 22px;  
+}
+.icon-size-2
+{
+    font-size: 22px;
+}
+
+.About
+{
+    background-color: #000000;
+    width: 100%;
+    height: 80vh;
+}
+.about-grid
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+     /* Center content horizontally */
+    height: 100%;
+    margin-left: 50px;
+
+
+}
+.about-content
+{
+   color: #fff;
+   margin: 20px; /* Adjust margin as needed */
+   flex: 1; /* Use flex to distribute space evenly */
+   max-width: 600px; /* Set a max-width for content */
+   /* text-align: ; Center text horizontally */
+}
+.about-content h2
+{
+    font-size: 30px;
+    font-family: 'raleway';
+    font-weight: 800;
+}
+.about-content h3
+{
+    font-size: 20px;
+    font-family: 'raleway';
+    margin-top: -10px;
+    color: #d43f52;
+    margin-bottom: 39px;
+}
+.about-content p
+{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'raleway';
+    margin-top: -10px;
+    color: #999999;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.skill-name
+{
+    color: #fff;
+    font-size: 15px;
+    margin: 20px 0px;
+    font-family: 'raleway';
+    margin-bottom: 5px;
+    font-weight: 700;
+   
+}
+
+.skills
+{
+    width: 100%;
+    max-width: 600px;
+    padding: 0px 15px;
+    /* background-color: green; */
+}
+.skill-bar
+{
+    background-color: #fff;
+    height: 4px;
+    border-radius: 2px;
+    max-width: 530px;
+    position: relative;
+
+}
+.skill-per
+{
+    background-color:#d43f52 ;
+    height: 4px;
+    border-radius: 2px;
+
+}
+.skill
+{
+    margin-top: 30px;
+}
+
+.percentage
+{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'raleway';
+    /* margin-top: -10px; */
+    font-weight: 700;
+    position: absolute;
+    right: 0%;
+    bottom: 8px;
+}
+.portfolio
+{
+    background-color:#1a1a1a;
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.portfolio h2  
+{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'raleway';
+    font-weight: 700;
+}
+
+.photo-gallery
+{
+    display: flex;
+    gap: 30px;
+}
+.row-1
+{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 30px;
+    
+}
+
+.photo img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.lower-row
+{
+    display: grid;
+    grid-template-columns: 540px 540px;
+    gap: 30px;
+
+}
+
+.tooltip {
+    background-color: #d43f52;
+    opacity: 0.8;
+    text-align: center;
+    padding: 20px; /* Adjust the padding to make the tooltip smaller */
+    width: 80%; /* Set the desired width for the tooltip */
+    height: 75%; /* Set the desired height for the tooltip */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: absolute;
+    bottom: 10px;
+    left: 14px;
+    color: white;
+   display: none;
+    font-family: 'releway';
+}
+
+.photo
+{
+    position: relative;
+    cursor: pointer;
+}
+
+
+.tooltip-2 {
+    background-color: #d43f52;
+    opacity: 0.8;
+    text-align: center;
+    padding: 20px; /* Adjust the padding to make the tooltip smaller */
+    width: 87%; /* Set the desired width for the tooltip */
+    height: 80%; /* Set the desired height for the tooltip */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: absolute;
+    bottom: 16px;
+    left: 17px;
+    color: white;
+   display: none;
+    font-family: 'releway';
+}
+
+.photo:hover .tooltip {
+    display: block; /* Show tooltip when hovering over the photo container */
+    transition: 20s;
+}
+   
+   
+.photo:hover .tooltip-2 {
+    display: block; /* Show tooltip when hovering over the photo container */
+    transition: 20s;
+}
+
+.contact
+{
+    background-color: #000000;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.contact h2
+{
+    color: #fff;
+    font-family: 'raleway';
+  
+}
+
+
+.contact-grid
+{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    align-items: center;
+    margin-top: 10px;
+
+
+}
+.btn-contact
+{
+    color: #d43f52;
+    /* font-size: small; */
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 14px;
+    padding-bottom: 19px;
+    padding-top: 17px;
+    border: #fff 2px solid;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.num
+{
+    margin-left: 28px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    font-weight: 100;
+    color: #999999;
+}
+.contact-info
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 165px;
+}
+.form
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+
+}
+.text-name input
+{
+    width: 546px;
+    height: 45px;
+    border: #999999 2px solid;
+    margin-top: 60px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'raleway';
+    background-color: transparent ;
+    outline: none; 
+    font-family: 'raleway';
+    color: #fff;
+    
+}
+
+.email 
+{
+    width: 546px;
+    height: 45px;
+    border: #999999 2px solid;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'raleway';
+    background-color: transparent ;
+    outline: none; 
+    font-family: 'raleway';
+    color: #fff;
+}
+
+.message
+{
+    width: 546px;
+    height: 100px;
+    border: #999999 2px solid;
+    margin-top: 15px;
+    padding-left: 10px;
+
+  
+    font-size: 15px;
+    font-family: 'raleway';
+    background-color: transparent ;
+    outline: none; 
+    color: #fff;
+}
+
+.submit-btn
+{
+    width: 564px;
+    height: 54px;
+    margin-top: 10px;
+    padding-left: 10px;
+   border: none;
+    font-size: 15px;
+    font-family: 'raleway';
+    background-color: #d43f52; ;
+    outline: none; 
+    font-family: 'raleway';
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.submit-btn:hover
+{
+    background-color: #fff;
+    color: #d43f52;
+    transition: 1.5s;
+    border: none;
+}
+.footer
+{
+    width: 100%;
+    height: 20vh;
+    background-color: #000000;
+    border-top: 1px solid rgba(48, 47, 47, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p
+{
+    color:  #999999;
+    font-size: 16px;
+    font-family: 'raleway';
+    margin-left: 20px;
+    margin-top: -10px;
+    font-weight: 300;
+}
+.right
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 7px;
+}
+.straight-line
+{
+    width:100px;
+    height: 1px;
+    background-color: #999999;
+    margin-top: 7px;
+}
+.socials
+{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-direction: row;
+
+}
